@@ -104,3 +104,6 @@ RUNS/
 
 # Data files
 data/
+
+# PyCharm
+.idea
