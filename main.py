@@ -171,7 +171,7 @@ def run():
                 nn_last_layer, correct_label, learning_rate, num_classes)
 
         epoch = 50
-        batch_size = 128
+        batch_size = 20
 
         # TODO: Train NN using the train_nn function
         train_nn(sess, epoch, batch_size, get_batches_fn, train_op, cross_entropy_loss, input_image, correct_label, keep_prob, learning_rate)
