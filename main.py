@@ -166,7 +166,7 @@ def run():
         logits, train_op, cross_entropy_loss = optimize(
                 nn_last_layer, correct_label, learning_rate, num_classes)
 
-        epoch = 5
+        epoch = 50
         batch_size = 128
 
         # TODO: Train NN using the train_nn function
